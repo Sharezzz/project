@@ -40,12 +40,19 @@
 
 @media screen and (min-width: 1280px){
 	.list {
+		grid-template-columns: repeat(4, 23,5%);
+		gap: 2%;
+	}
+}
+
+@media screen and (min-width: 1024px){
+	.list {
 		grid-template-columns: repeat(3, 31.3%);
 		gap: 3%;
 	}
 }
 
-@media screen and (min-width: 800px){
+@media screen and (min-width: 425px){
 	.list {
 	  grid-template-columns: repeat(2, 48%);
 	  gap: 3%;
